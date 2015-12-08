@@ -1,13 +1,14 @@
-bcrypt-as-promised
+bcrypt-nodejs-as-promised
 ==================
+This is a modified version of the original bcrypt-as-promised as I was having issues using bcrypt.
 
-[![Build Status](https://travis-ci.org/iceddev/bcrypt-as-promised.svg?branch=master)](https://travis-ci.org/iceddev/bcrypt-as-promised)
+Original can be found here [bcrypt-as-promised](https://github.com/iceddev/bcrypt-as-promised)
 
 A promisified version of [bcrypt](https://github.com/ncb000gt/node.bcrypt.js)
 
 ## Install via NPM
 ```
-npm install bcrypt-as-promised
+npm install bcrypt-nodejs-as-promised
 ```
 
 ## Basic Usage

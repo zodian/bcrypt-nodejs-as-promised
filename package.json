@@ -1,7 +1,7 @@
 {
-  "name": "bcrypt-as-promised",
+  "name": "bcrypt-nodejs-as-promised",
   "version": "1.0.0",
-  "description": "A promisified bcrypt",
+  "description": "A promisified bcrypt-nodejs",
   "main": "index.js",
   "scripts": {
     "test": "istanbul cover _mocha && npm run check-coverage",
@@ -9,20 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:iceddev/bcrypt-as-promised.git"
+    "url": "git@github.com:zodian/bcrypt-nodejs-as-promised.git"
   },
   "keywords": [
     "bcrypt",
+    "bcrypt-nodejs",
     "promise"
   ],
   "author": "Luis Montes",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iceddev/bcrypt-as-promised/issues"
+    "url": "https://github.com/zodian/bcrypt-nodejs-as-promised/issues"
   },
-  "homepage": "https://github.com/iceddev/bcrypt-as-promised",
+  "homepage": "https://github.com/zodian/bcrypt-nodejs-as-promised",
   "dependencies": {
-    "bcrypt": "^0.8.0",
+    "bcrypt-nodejs": "^0.0.3",
     "when": "^3.5.2"
   },
   "devDependencies": {

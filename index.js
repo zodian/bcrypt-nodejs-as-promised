@@ -1,6 +1,6 @@
 'use strict';
 
-var bcrypt = require('bcrypt');
+var bcrypt = require('bcrypt-nodejs');
 var nodefn = require('when/node');
 var when = require('when');
 

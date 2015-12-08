@@ -9,7 +9,7 @@ var expect = chai.expect;
 
 var bcrypt = require('../');
 
-describe('bcrypt-as-promised', function(){
+describe('bcrypt-nodejs-as-promised', function(){
 
   var goodPassword = 'aHBeRy85cNK*zubPPkKylAKFsBG@N&v&';
   var goodHash = '$2a$10$NRSrC8ldvcmBs5/OHX5X/.WaSr1uiK8kSPuhNYXLkmLck8lTScivG';
