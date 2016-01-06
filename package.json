@@ -1,6 +1,6 @@
 {
   "name": "bcrypt-nodejs-as-promised",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A promisified bcrypt-nodejs",
   "main": "index.js",
   "repository": {
