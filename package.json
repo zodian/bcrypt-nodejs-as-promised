@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/zodian/bcrypt-nodejs-as-promised",
   "dependencies": {
-    "bcrypt-nodejs": "^0.0.3",
+    "bcrypt-nodejs": "^0.0.2",
     "when": "^3.5.2"
   },
   "devDependencies": {
