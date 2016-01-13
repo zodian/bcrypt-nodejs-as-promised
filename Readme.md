@@ -26,6 +26,17 @@ comparing:
       .then(console.log, console.error)
 ```
 
+__Note: an invalid password/hash combo errors as a rejected promise__
+
+The rejection can be checked against `instanceof bcrypt.MISMATCH_ERROR`
+
+```js
+bcrypt.compare('invalid password', someHash)
+  .then(handleValidPassword)
+  .catch(bcrypt.MISMATCH_ERROR, handleInvalidPassword)
+  .catch(handleOtherErrors);
+```
+
 generating a salt:
 ```javascript
     bcyrpt.genSalt(10)
