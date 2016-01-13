@@ -1,6 +1,6 @@
 {
   "name": "bcrypt-nodejs-as-promised",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A promisified bcrypt-nodejs",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   "homepage": "https://github.com/zodian/bcrypt-nodejs-as-promised",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
-    "when": "^3.5.2"
+    "when": "3.5.2"
   },
   "devDependencies": {
     "chai": "^1.9.2",
